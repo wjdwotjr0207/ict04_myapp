@@ -1,0 +1,22 @@
+git init = .git폴더 생성
+
+touch "파일명.확장자명" = 파일 생성
+
+git status = 현재 수정한 파일이 무엇인지 뜸
+
+git add .  = 인덱스 생성
+
+git commit -m "커밋명" = 커밋명 이름으로 커밋하기
+
+git log = 커밋기록 보기
+
+git remote -v = origin fetch, push 링크 제대로 들갔는지 확인 (git ls-remote)로도 가능
+
+
+------------------------------------------------------------------
+git push origin master = 공유 git에 올리기
+
+git pull origin master = 공유 git에서 받기
+
+
+clone = 전부 다 받기
